@@ -1,0 +1,46 @@
+legend {
+   border-radius: 10px;
+  padding: 3px;
+ font-size: 25px;
+  text-align: center;
+  color: rgb(6, 6, 31);
+  
+}
+label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(71, 61, 61);
+}
+
+.introduction, .Location, .market, .scaleup_potential {
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+
+}
+
+.introduction> div, .Location > div, .market > div, .scaleup_potential > div{
+    display: grid;
+    grid-template-columns: 46% 46%;
+    grid-gap: 4%;
+    padding: 10px;
+   }
+.introduction > div > div, .Location > div > div, .market > div > div, .scaleup_potential > div > div{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.introduction > div > div > span, .Location > div > div > span, .market > div > div > span, .scaleup_potential > div > div > span, .usp>span{
+  display: flex;
+}
+
+input {
+    padding: 2px;
+    border-radius: 2px;
+}
+
